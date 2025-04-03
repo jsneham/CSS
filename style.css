@@ -1,0 +1,52 @@
+/* universal selector */
+* {
+  color: aqua;
+}
+
+/* Element Selctor */
+
+h1 {
+  color: green;
+}
+
+h1,
+h2,
+h3 {
+  color: burlywood;
+}
+
+p {
+  color: crimson;
+}
+
+/* button {
+    color: yellowgreen;
+    background-color: black;
+} */
+
+body {
+  background-color: bisque;
+}
+
+/* id selector */
+
+#headingOne {
+  color: fuchsia;
+}
+
+/* Class selector */
+.myClass {
+  color: rgb(0, 150, 255);
+}
+
+#box {
+  background-color: #0000ff;
+}
+
+.heading {
+  color: #ff0000;
+}
+
+button {
+  background-color: green;
+}
