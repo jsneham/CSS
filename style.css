@@ -1,6 +1,8 @@
 /* universal selector */
 * {
-  color: aqua;
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 
 /* Element Selctor */
@@ -49,4 +51,69 @@ body {
 
 button {
   background-color: green;
+}
+
+
+.textProperty {
+    text-align: right;
+    text-decoration : underline;
+}
+
+#h1 {
+    font-weight: 100;
+    color: black;
+}
+#h2 {
+    font-weight: 250;
+    color: black;
+}
+#h3 {
+    font-weight: 600;
+    color: black;
+}
+#h4 {
+    font-weight: 900;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#oneFont {
+    font-family: arial;
+}
+
+#paraOne {
+    font-size: 16px ;
+    line-height: 20px;
+    text-transform: capitalize;
+
+}
+
+#paraTwo {
+    font-size: 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+#paraThree {
+    font-size: 24px;
+}
+
+#qOne {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+#qTwo{
+    /* font-family: 'Times New Roman', Times, serif; */
+    color: black;
+}
+
+#outer{
+ font-size: 25px;
+ color: black;
+}
+
+#inner{
+    font-size: 10px;
+    color: black;
 }
