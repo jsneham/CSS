@@ -1,26 +1,16 @@
-<!-- CSS -->
+# Cascading Style Sheet makeup It is a language that is used to describe the style of a document. -->
 
-<!-- 
-Cascading Style Sheet makeup
-It is a language that is used to describe the style of a document. -->
-
-<!-- Basic Syntax
-Selector (h1)
-h1 {
-color: red; //Property :Value
-}
- -->
 
  # Including Style
- 1. Inline
-   <h1 style="color: red">
+        1. Inline
+        <h1 style="color: red">
 
- 2. <style> tag
-   <style>
-        h1 {
-        color : red;
-        }
-    </style>
+        2. <style> tag
+        <style>
+                h1 {
+                color : red;
+                }
+            </style>
 
 # External Stylesheet
  Writing CSS in a separate document & linking it with HTML file
@@ -84,7 +74,7 @@ color: red; //Property :Value
         font-family: math;
         font-family: fangsong; -->
 
-    # Units in CSS
+    - Units in CSS
         - Absolute
             - pixels (px)
                 96px = 1 inch = 2.54cm
